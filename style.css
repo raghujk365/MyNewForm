@@ -4,11 +4,16 @@
     padding: 0;
 }
 body{
-    background: url("raghu.jpg");
-    background-repeat: no-repeat;
-    background-size: 150%;
+   background-color: lightblue;
+   background-repeat: no-repeat;
+   background-size: 150%;
     background-position: -400px 0px;
 }
+
+h1 {
+   color: darkorange;
+   text-align: center;
+ }
  div.main{
     width:400px;
     margin:100px auto 0px auto;

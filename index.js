@@ -7,7 +7,7 @@ if(usersList === null){
 else {
 	usersList = JSON.parse(usersList);
 }
-
+//HTML Elements
 const form = document.querySelector('#register');
 const submit = document.querySelector('#submit');
 const showDetails = document.querySelector('#show_details');
@@ -51,4 +51,4 @@ function displayData() {
 }
 
 
-showDetails.addEventListener('click', displayData);
+showDetails.addEventListener('click', displayData());
